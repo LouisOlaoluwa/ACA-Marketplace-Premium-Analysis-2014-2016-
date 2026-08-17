@@ -41,7 +41,12 @@ The project combines SQLite, SQL, and Python to investigate premium distribution
 * Premiums increased with age: Rates generally increased with age, with growth becoming more pronounced around ages 45–50.
 * Premiums increased by metal tier: Median premiums rose from $320.65 (Bronze) to $393.78 (Silver), $463.95 (Gold), and $527.08 (Platinum).
 
-  
+
+## 📈 Visual Charts
+
+[Charts]
+
+
 ## 📊 How to Run
 
 1. Clone this repository:
