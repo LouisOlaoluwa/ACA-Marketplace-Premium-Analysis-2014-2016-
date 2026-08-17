@@ -47,8 +47,8 @@ The project combines SQLite, SQL, and Python to investigate premium distribution
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/LouisOlaoluwa/ACA-Marketplace-Premium-Analysis-2014-2016.git
-cd ACA-Marketplace-Premium-Analysis-2014-2016
+[git clone https://github.com/LouisOlaoluwa/ACA-Marketplace-Premium-Analysis-2014-2016.git
+cd ACA-Marketplace-Premium-Analysis-2014-2016](https://github.com/LouisOlaoluwa/ACA-Marketplace-Premium-Analysis-2014-2016-)
 ```
 
 2. Install the required Python packages:
