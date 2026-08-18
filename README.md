@@ -43,7 +43,7 @@ The project combines SQLite, SQL, and Python to investigate premium distribution
 
 
 ## 📈 Visual Charts
-
+These are charts created during the course of this analysis
 [Charts](https://github.com/LouisOlaoluwa/ACA-Marketplace-Premium-Analysis-2014-2016-/tree/main/Charts)
 
 
