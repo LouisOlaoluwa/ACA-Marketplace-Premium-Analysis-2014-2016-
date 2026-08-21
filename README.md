@@ -2,13 +2,13 @@
 
 An end-to-end SQL and Python data analysis project examining 12+ million health insurance marketplace rate records from the Centers for Medicare & Medicaid Services (CMS).
 
-## 📌 Project Overview
+##  Project Overview
 
 This project analyzes premium rate structures across the 2014–2016 ACA Health Insurance Marketplace and evaluates data quality, referential integrity, and relationships between multiple marketplace tables.
 
 The project combines SQLite, SQL, and Python to investigate premium distributions, identify anomalous values, reconcile inconsistent identifiers, and validate relationships across tables including `Rate`, `PlanAttributes`, `Network`, `BenefitsCostSharing`, and `ServiceArea`.
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 * **Language:** Python 3.x
 * **Database:** SQLite
@@ -16,7 +16,7 @@ The project combines SQLite, SQL, and Python to investigate premium distribution
 * **Visualization:** Seaborn, Matplotlib
 * **Querying:** SQL
 
-## 🔑 Key Engineering & Data Quality Insights
+##  Key Engineering & Data Quality Insights
 
 * **Primary Key Reconciliation:** Identified differences in identifier formats between `Rate` and `PlanAttributes`, including base Plan IDs and variant suffixes, and developed join logic to reconcile the records.
 * **Data Anomaly Detection:** Identified extreme premium values, including `9999.99`, `9999`, `99999`, `999999` and excluded these placeholder/anomalous values (along with rates `<10`) from premium statistical analysis.
@@ -26,7 +26,7 @@ The project combines SQLite, SQL, and Python to investigate premium distribution
 
 
 
-## 📈 Key Findings
+##  Key Findings
 
 * Premiums increase consistently from Bronze to Platinum, with the largest jump occurring between Bronze and Silver.
 * Platinum plans show the widest premium variability (IQR $365.10) compared to Bronze ($222.68), indicating greater pricing dispersion for richer coverage.
@@ -42,12 +42,12 @@ The project combines SQLite, SQL, and Python to investigate premium distribution
 * Premiums increased by metal tier: Median premiums rose from $320.65 (Bronze) to $393.78 (Silver), $463.95 (Gold), and $527.08 (Platinum).
 
 
-## 📈 Visual Charts
+##  Visual Charts
 These are charts created during the course of this analysis
 [Charts](https://github.com/LouisOlaoluwa/ACA-Marketplace-Premium-Analysis-2014-2016-/tree/main/Charts)
 
 
-## 📊 How to Run
+##  How to Run
 
 1. Clone this repository:
 
@@ -66,7 +66,7 @@ pip install pandas numpy matplotlib seaborn
 
 4. Open and run `ACA-Marketplace-Premium-Analysis-2014-2016.ipynb` in Jupyter Notebook.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 * Analyze ACA marketplace premium rates across multiple years.
 * Identify and investigate data-quality anomalies.
@@ -75,7 +75,7 @@ pip install pandas numpy matplotlib seaborn
 * Use Python for statistical analysis and visualization.
 * Demonstrate practical data-cleaning and database-analysis workflows.
 
-## ⚠️ Limitations
+##  Limitations
 
 * The analysis is based on ACA Marketplace filings from 2014–2016 and may not fully reflect the current health insurance market.
 * Premiums do not account for government subsidies or tax credits that reduce the amount many consumers actually pay.
